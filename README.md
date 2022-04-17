@@ -12,7 +12,12 @@
  ### Execution Times 
  To reiterate, the purpose of this project was to refactor code to create a more efficient process when analyzing the data set.  In my original code, I used nested loops.  This process would scan through the dataset analyzing each record once for each possible ticker.  As a result, the processing times for each year would be a little over 1 second.
  
- With my refactored code, I created a list and used the array method.  By doing this, we were able to reduce processing time since the computer was now only accessing each data row once, without needing to rescan each record for every possible ticker.  The results are shown below.
+ With my refactored code, I created a list and used the array method.  
+ 
+ ![array_VBA](https://user-images.githubusercontent.com/103154070/163725345-7ed86e44-fa4c-40e9-8dd7-bf0d35e15e57.png)
+
+ 
+ By doing this, we were able to reduce processing time since the computer was now only accessing each data row once, without needing to rescan each record for every possible ticker.  The results are shown below.
  
  ![VBA_Challenge_2017](https://user-images.githubusercontent.com/103154070/163725197-91a675f9-9017-494c-a8dd-20f8e99ee094.png). ![VBA_Challenge_2018](https://user-images.githubusercontent.com/103154070/163725203-e0fdff0c-0eda-437b-a1d9-16ac6bc22175.png)
 
@@ -23,5 +28,3 @@
  Refactoring code has great benefits when it comes to speed and the reduction of complexity, for it is easier to understand.  Doing this, the code will be fresher, but it does have some disadvantages as well.  Sometimes refactoring code can become time consuming and if an error is made, it could be more challenging to find where that error is.  
  ### How do these pros and cons apply to refactoring the orginal VBA Script 
  Refactoring the original VBA script here decreased the amount of time needed to run the macro, therefore resulting in the code being more efficient.  Also, the appearance of the refocused code was very organized and easy to read.
- 
- ![array_VBA](https://user-images.githubusercontent.com/103154070/163725267-6e46378c-3e32-417d-887f-557acf43c70b.png)
